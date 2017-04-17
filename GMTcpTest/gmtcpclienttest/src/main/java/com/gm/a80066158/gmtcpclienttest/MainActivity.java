@@ -60,12 +60,16 @@ public class MainActivity extends AppCompatActivity {
 
     private void onConnectButtonClick() {
         Log.i(TAG, "<onConnectButtonClick> start");
-        String serverIp = ipEditText.getText().toString();
-        String serverPortStr = portEditText.getText().toString();
-        int serverPort = Integer.parseInt(serverPortStr);
-        Log.i(TAG, "<onConnectButtonClick> serverIp = " + serverIp + ", serverPort = " + serverPort);
+        try {
+            String serverIp = ipEditText.getText().toString();
+            String serverPortStr = portEditText.getText().toString();
+            int serverPort = Integer.parseInt(serverPortStr);
+            Log.i(TAG, "<onConnectButtonClick> serverIp = " + serverIp + ", serverPort = " + serverPort);
 
-        connectTcpServer(serverIp, serverPort);
+            connectTcpServer(serverIp, serverPort);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     private void onSendButtonClick() {
