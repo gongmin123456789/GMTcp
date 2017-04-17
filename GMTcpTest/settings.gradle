@@ -1,1 +1,1 @@
-include ':app', ':gmtcp'
+include ':GMTCPServerTest', ':gmtcp', ':gmtcpclienttest'

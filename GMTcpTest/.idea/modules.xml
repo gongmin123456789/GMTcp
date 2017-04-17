@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GMTCPServerTest/GMTCPServerTest.iml" filepath="$PROJECT_DIR$/GMTCPServerTest/GMTCPServerTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/GMTcpTest.iml" filepath="$PROJECT_DIR$/GMTcpTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/gmtcp/gmtcp.iml" filepath="$PROJECT_DIR$/gmtcp/gmtcp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmtcpclienttest/gmtcpclienttest.iml" filepath="$PROJECT_DIR$/gmtcpclienttest/gmtcpclienttest.iml" />
     </modules>
   </component>
 </project>
